@@ -19,7 +19,7 @@ batch_badge_creator(names)
 
 
 def assign_rooms(names)
-  names.each_with_index {|name, room| puts "Hello #{name}! You'll be assigned to room #{room}!"}
+  names.each_with_index {|name, room| puts "Hello #{name}! You'll be assigned to room #{room+1}!"}
 end
 
 def printer
