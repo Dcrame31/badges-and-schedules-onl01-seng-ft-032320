@@ -29,11 +29,10 @@ end
 
 list = batch_badge_creator(attendees) + assign_rooms(attendees)  
 def printer(list)
-  badges_and_room_assignments = []
+  #badges_and_room_assignments = []
   list.each do |attendee|
-    badges_and_room_assignments << "#{attendee}"
-  end
-  badges_and_room_assignments
+    # "#{attendee}"
+  
 end
 
 printer(list)
