@@ -26,8 +26,7 @@ def assign_rooms(names)
     new_array
 end
 
-badge_name = batch_badge_creator (names)
-room_name = assign_rooms(names)
+attendees
 
 def printer(room_name, badge_name)
   room_name.each do |room| #take array from assign_rooms(name)
