@@ -1,7 +1,7 @@
 # Write your code here.
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-
+name = "Arel"
 def badge_maker(name)
   puts "Hello, my name is #{name}."
 end
@@ -20,7 +20,6 @@ batch_badge_creator(names)
 
 def assign_rooms(names)
   names.each_with_index {|name, room| puts "Hello #{name}! You'll be assigned to room #{room}!"}
-end
 end
 
 def printer
