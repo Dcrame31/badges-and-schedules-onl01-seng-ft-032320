@@ -36,3 +36,4 @@ def printer(list)
   badges_and_room_assignments
 end
 
+printer(list)
