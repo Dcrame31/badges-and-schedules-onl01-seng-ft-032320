@@ -32,3 +32,6 @@ def printer
   puts "#{assign_rooms(names)}"
 end
 end
+
+
+hello = "1"
