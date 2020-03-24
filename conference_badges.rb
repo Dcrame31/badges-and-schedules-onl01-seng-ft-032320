@@ -39,4 +39,4 @@ def printer(badges, rooms)
   end
 end
 
-printer(list)
+printer(badges, rooms)
