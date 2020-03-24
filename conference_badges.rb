@@ -33,7 +33,7 @@ def printer(list)
   list.each do |attendee|
     badges_and_room_assignments << "#{attendee}"
   end
-  badges_and_room_assignments
+  return badges_and_room_assignments
 end
 
 printer(list)
