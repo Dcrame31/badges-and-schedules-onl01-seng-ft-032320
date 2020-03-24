@@ -35,3 +35,4 @@ end
 
 
 hello = "1"
+puts "#{hello}"
