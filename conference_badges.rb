@@ -37,4 +37,3 @@ end
     puts "#{name}"
   end
 end
-printer(room_name, badge_name)
