@@ -1,5 +1,5 @@
 # Write your code here.
-names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
 def badge_maker(name)
@@ -7,7 +7,7 @@ def badge_maker(name)
 end
 
   
-def batch_badge_creator (names)
+def batch_badge_creator (attendees)
   newArray = []
   names.each do |name|
   newArray << "Hello, my name is #{name}."
@@ -15,10 +15,10 @@ def batch_badge_creator (names)
   newArray;
 end
 
-batch_badge_creator(names)
 
 
-def assign_rooms(names)
+
+def assign_rooms(attendees)
   new_array = []
   names.each_with_index do |name, room| 
     new_array << "Hello, #{name}! You'll be assigned to room #{room+1}!"
@@ -27,7 +27,7 @@ def assign_rooms(names)
 end
 
 
-badges_and_room_assignments = assign_rooms(names) + batch_badge_creator(names)
+badges_and_room_assignments = assign_rooms(attendees) + batch_badge_creator(attendees)
 def printer(badges_and_room_assignments)
   new_array = []
   attendees.each do |attendee|
