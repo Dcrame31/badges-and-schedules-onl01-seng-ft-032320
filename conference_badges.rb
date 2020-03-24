@@ -33,4 +33,4 @@ def printer(attendees)
     puts "#{attendee}"
   end
 end
-printer(attendees)
+
